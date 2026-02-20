@@ -984,3 +984,12 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+.love-text {
+  text-align: center;
+  font-size: 40px;
+  color: pink;
+  margin-top: 50px;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
