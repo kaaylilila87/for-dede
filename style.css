@@ -987,11 +987,15 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
 .love-text {
   position: absolute;
-  top: 50%;
+  bottom: 50px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  color: white;
-  z-index: 9999;
+  transform: translateX(-50%);
+  
+  color: #ffb6c1;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 182, 193, 0.7);
+  width: 80%;
 }
-}
+
