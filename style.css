@@ -987,15 +987,18 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
 .message-section {
   position: absolute;
-  bottom: 40px;
-  width: 100%;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  pointer-events: none;
+  background: none;
+  width: auto;
+  height: auto;
 }
 
 .message-section h1 {
   color: #ffc0cb;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.6;
   text-shadow: 0 0 15px rgba(255,192,203,0.7);
 }
